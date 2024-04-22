@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[53],{86768:function(e,u,n){n.r(u),n.d(u,{default:function(){return d}});var t=n(86074);function d(){return(0,t.jsx)("div",{children:"TEAM"})}}}]);
