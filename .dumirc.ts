@@ -3,8 +3,10 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   base: '/openlamm/',
   publicPath: '/openlamm/',
+  plugins: [require.resolve('@umijs/plugins/dist/tailwindcss')],
+  tailwindcss: {},
   themeConfig: {
-    logo: '/public/logo.png',
+    logo: './logo.png',
     nav: [
       { title: 'Tutorial', link: '/tutorial' },
       { title: 'Datasets', link: '/datasets' },
@@ -15,5 +17,6 @@ export default defineConfig({
     socialLinks: {
       github: 'https://github.com/OpenGVLab/LAMM',
     },
+    prefersColor: { default: 'auto', switch: false },
   },
 });
